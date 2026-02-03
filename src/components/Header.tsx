@@ -18,7 +18,7 @@ export default function Header() {
 
   return (
     <header className="bg-[#1a1a1a] text-gray-300 relative">
-      <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-0">
         <div className="flex justify-between items-center pt-2 pb-2">
           <div className="text-xs text-gray-400 hidden md:block">
             Member of HF Markets Group
@@ -143,7 +143,7 @@ export default function Header() {
                     href={item.href}
                     className={classNames(
                       "text-gray-300 hover:bg-white/5 hover:text-white",
-                      "rounded-md px-3 py-2 text-sm font-medium"
+                      "rounded-md px-3 py-2 text-sm font-medium",
                     )}
                   >
                     {item.name}
@@ -178,7 +178,7 @@ export default function Header() {
                 href={item.href}
                 className={classNames(
                   "text-gray-300 hover:bg-white/5 hover:text-white",
-                  "block rounded-md px-3 py-2 text-base font-medium"
+                  "block rounded-md px-3 py-2 text-base font-medium",
                 )}
                 onClick={() => setMobileMenuOpen(false)}
               >
