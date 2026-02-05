@@ -88,7 +88,7 @@ export default function Hero() {
       className="relative w-full min-h-[600px] py-12 bg-cover bg-center flex items-center justify-center"
       style={{ backgroundImage: `url(${heroBanner})` }}
     >
-      <div className="absolute inset-0 bg-black/30"></div>
+      <div className="absolute inset-0 bg-black/10"></div>
 
       <div className="relative z-10 w-full max-w-7xl px-4 sm:px-6 lg:px-8 flex flex-col items-center">
         <div className="text-center mb-10 w-full font-sofia font-semibold">
