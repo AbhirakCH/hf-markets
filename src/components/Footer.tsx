@@ -7,8 +7,8 @@ import {
   Linkedin,
   FileText,
 } from "lucide-react";
-import appStore from "@/assets/appstore-app.svg";
-import googlePlay from "@/assets/googleplay-app.svg";
+import appStore from "@/assets/img-appstore-app.svg";
+import googlePlay from "@/assets/img-googleplay-app.svg";
 
 export default function Footer() {
   return (
