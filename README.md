@@ -1,73 +1,53 @@
-# React + TypeScript + Vite
+# HF Markets Frontend Assessment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Objective
 
-Currently, two official plugins are available:
+The goal of this assessment is to evaluate React development skills through the implementation of a fully functional, responsive landing page based on the provided Figma design. The exercise focuses on modern React best practices, component architecture, and frontend problem-solving.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
 
-## React Compiler
+- **Core**: React 19 (Vite)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Icons**: Lucide React
+- **Form Handling**: React Hook Form
+- **Validation**: Zod
+- **HTTP Client**: Axios
+- **Notifications**: Sonner
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Functionality
 
-## Expanding the ESLint configuration
+- **Responsive Design**: Layout adapts smoothly to mobile, tablet, and desktop screens.
+- **Email Validation**: Client-side validation using Zod schema to ensure correct email format.
+- **Dynamic Phone Number Prefill**: Country selector dropdown that automatically fills the corresponding country code (e.g., Thailand +66, Japan +81).
+- **Form Handling**: Controlled components using `react-hook-form` with validation and error states.
+- **Feedback**: Success toast notification upon form submission.
+- **Registration Service**: API logic separated into a dedicated service layer.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Submission Response
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+Upon successful form submission, the API response details are logged to the **Console**. A success toast notification will also appear on the UI.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## Links
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- **Demo Link**: [Insert Demo Link Here]
+- **Google Drive Link**: [Insert Google Drive Link Here]
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Setup Instructions
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+1.  **Install Dependencies**:
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+    ```bash
+    npm install
+    ```
+
+2.  **Run Development Server**:
+
+    ```bash
+    npm run dev
+    ```
+
+3.  **Build for Production**:
+    ```bash
+    npm run build
+    ```
