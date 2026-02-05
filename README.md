@@ -33,7 +33,7 @@ Upon successful form submission, the API response details are logged to the **Co
 
 - **Demo Link**: https://hf-markets.vercel.app/
 - **GitHub Link**: https://github.com/AbhirakCH/hf-markets
-- **Google Drive Link**: [Insert Google Drive Link Here]
+- **Google Drive Link**: https://drive.google.com/file/d/1Hbcut8CYPu_zQ3qYrInG2ZdaBcNrY8QB/view?usp=sharing
 
 ## Setup Instructions
 
