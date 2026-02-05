@@ -30,12 +30,10 @@ export default function Faqs() {
   return (
     <section className="py-20 px-4 bg-[#f2f2f2] font-sans">
       <div className="max-w-4xl mx-auto">
-        {/* Heading */}
         <h2 className="text-3xl md:text-5xl font-sofia font-normal uppercase text-black mb-12 tracking-wide text-center">
           FAQs
         </h2>
 
-        {/* Accordion List */}
         <div className="w-full">
           {faqs.map((faq, index) => (
             <div key={index} className="border-b border-gray-300 last:border-0">

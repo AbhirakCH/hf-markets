@@ -14,7 +14,6 @@ export default function Footer() {
   return (
     <footer className="bg-[#1a1a1a] text-white py-10 font-sans">
       <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-0 flex flex-col lg:flex-row justify-between gap-10">
-        {/* Left Section: Socials & Download */}
         <div className="flex flex-col gap-8 lg:w-1/4">
           {/* Find us on */}
           <div>
@@ -68,7 +67,6 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Right Section: Risk Warning */}
         <div className="flex flex-col gap-4 lg:w-3/4">
           <h3 className="text-sm font-bold text-gray-200">Risk Warning</h3>
           <p className="text-xs text-gray-400 leading-relaxed text-justify">

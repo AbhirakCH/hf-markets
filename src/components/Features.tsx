@@ -7,15 +7,12 @@ export default function Features() {
   return (
     <section className="lg:pt-20 lg:pb-0 pt-10 pb-10 px-4 bg-[#f2f2f2] font-sans overflow-hidden">
       <div className="max-w-7xl mx-auto text-center">
-        {/* Heading */}
         <h2 className="text-3xl md:text-5xl font-sofia font-normal uppercase text-black mb-16 tracking-wide">
           Quisque Rutrum
         </h2>
 
         <div className="flex flex-col lg:flex-row items-center justify-center gap-8 lg:gap-5 relative">
-          {/* Left Column (Icons) */}
           <div className="flex flex-col gap-12 lg:w-1/4 items-center lg:items-end text-center lg:text-left">
-            {/* Item 1 (Top Left) */}
             <div className="flex flex-col w-[50%] items-center lg:items-start max-w-xs">
               <div className="w-16 h-16 mb-4 flex items-center justify-center">
                 <img src={icAccount} alt="Account" className="w-full h-full" />
@@ -25,7 +22,6 @@ export default function Features() {
               </p>
             </div>
 
-            {/* Item 2 (Bottom Left) */}
             <div className="flex flex-col w-[50%] items-center lg:items-start max-w-xs mt-12 lg:mt-24">
               <div className=" h-16 mb-4 flex items-center justify-center">
                 <img
@@ -40,7 +36,6 @@ export default function Features() {
             </div>
           </div>
 
-          {/* Center Image */}
           <div className="lg:w-2/4 flex justify-center z-0">
             <img
               src={imgMobile}
@@ -49,9 +44,7 @@ export default function Features() {
             />
           </div>
 
-          {/* Right Column (Icons) */}
           <div className="flex flex-col gap-12 lg:w-1/4 items-center lg:items-start text-center lg:text-left">
-            {/* Item 3 (Top Right) */}
             <div className="flex flex-col w-[50%] items-center lg:items-start max-w-xs">
               <div className="w-16 h-16 mb-4 flex items-center justify-center">
                 <img
@@ -65,7 +58,6 @@ export default function Features() {
               </p>
             </div>
 
-            {/* Item 4 (Bottom Right) */}
             <div className="flex flex-col w-[50%] items-center lg:items-start max-w-xs mt-12 lg:mt-24">
               <div className="w-16 h-16 mb-4 flex items-center justify-center">
                 <img
