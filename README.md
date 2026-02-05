@@ -1,4 +1,4 @@
-# HF Markets Frontend Assessment
+# HF Markets Frontend
 
 ## Objective
 
@@ -14,6 +14,7 @@ The goal of this assessment is to evaluate React development skills through the 
 - **Validation**: Zod
 - **HTTP Client**: Axios
 - **Notifications**: Sonner
+- **Node**: v22.18.0
 
 ## Functionality
 
@@ -30,7 +31,8 @@ Upon successful form submission, the API response details are logged to the **Co
 
 ## Links
 
-- **Demo Link**: [Insert Demo Link Here]
+- **Demo Link**: https://hf-markets.vercel.app/
+- **GitHub Link**: https://github.com/AbhirakCH/hf-markets
 - **Google Drive Link**: [Insert Google Drive Link Here]
 
 ## Setup Instructions
