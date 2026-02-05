@@ -24,12 +24,10 @@ export default function Prizes() {
   return (
     <section className="py-20 px-4 bg-white font-sans">
       <div className="max-w-6xl mx-auto text-center">
-        {/* Heading */}
         <h2 className="text-3xl md:text-5xl font-sofia font-normal uppercase text-black mb-16 tracking-wide">
           Prizes
         </h2>
 
-        {/* Cards Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-16">
           {prizes.map((prize, index) => (
             <div
@@ -53,7 +51,6 @@ export default function Prizes() {
           ))}
         </div>
 
-        {/* CTA */}
         <div className="flex flex-col items-center">
           <button className="px-20 bg-[#1a9d55] hover:bg-[#158045] text-white font-bold py-3 rounded transition-colors uppercase text-sm mb-4">
             Join Now

@@ -49,25 +49,21 @@ export default function Winners() {
   return (
     <section className="py-20 px-4 bg-[#f2f2f2] font-sans">
       <div className="max-w-7xl mx-auto">
-        {/* Main Heading */}
         <h2 className="text-3xl md:text-5xl font-sofia font-normal uppercase text-black mb-16 tracking-wide text-center">
           Sed Fringilla Mauris Sit
         </h2>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24">
-          {/* Left Column: Top Winners */}
           <div className="space-y-6">
             {topWinners.map((winner, index) => (
               <div
                 key={index}
                 className="bg-white rounded-xl p-6 flex items-center relative shadow-sm overflow-hidden min-h-[140px]"
               >
-                {/* Ribbon */}
                 <div className="absolute top-0 right-0 bg-[#c69c6d] text-white font-bold px-8 py-1 rotate-45 translate-x-8 translate-y-4 shadow-md text-sm">
                   {winner.prize}
                 </div>
 
-                {/* Icon */}
                 <div className="w-20 h-20 mr-6 flex-shrink-0">
                   <img
                     src={winner.icon}
@@ -76,7 +72,6 @@ export default function Winners() {
                   />
                 </div>
 
-                {/* Details */}
                 <div className="flex flex-col">
                   <span className="text-[#c69c6d] font-bold text-sm uppercase mb-1">
                     {winner.month}
@@ -96,14 +91,12 @@ export default function Winners() {
             ))}
           </div>
 
-          {/* Right Column: Leaderboard Table */}
           <div>
             <h3 className="text-xl font-bold uppercase mb-6 text-black">
               Aliquam Lorem Ant
             </h3>
 
             <div className="bg-transparent">
-              {/* Header */}
               <div className="flex justify-between border-b border-gray-300 pb-2 mb-2">
                 <span className="text-[#bf1e2e] font-bold text-sm uppercase">
                   Name
@@ -113,7 +106,6 @@ export default function Winners() {
                 </span>
               </div>
 
-              {/* Rows */}
               <div className="space-y-4">
                 {tableData.map((row, index) => (
                   <div
@@ -136,7 +128,6 @@ export default function Winners() {
           </div>
         </div>
 
-        {/* CTA */}
         <div className="flex flex-col items-center mt-16">
           <button className="px-20 bg-[#1a9d55] hover:bg-[#158045] text-white font-bold py-3 rounded transition-colors uppercase text-sm mb-4">
             Join Now

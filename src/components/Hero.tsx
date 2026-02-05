@@ -22,7 +22,7 @@ const registrationSchema = z.object({
 
 type RegistrationFormData = z.infer<typeof registrationSchema>;
 
-// Mock Data Country
+// Mock Data Countries
 const countries = [
   { name: "Thailand", code: "+66" },
   { name: "Japan", code: "+81" },
