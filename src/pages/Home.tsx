@@ -1,6 +1,7 @@
 import Hero from "@/components/Hero";
 import Features from "@/components/Features";
 import Prizes from "@/components/Prizes";
+import Winners from "@/components/Winners";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Hero />
       <Features />
       <Prizes />
+      <Winners />
     </>
   );
 }

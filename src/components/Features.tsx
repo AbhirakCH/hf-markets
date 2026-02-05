@@ -5,7 +5,7 @@ import icTrading from "@/assets/ic-trading.svg";
 
 export default function Features() {
   return (
-    <section className="pt-20 px-4 bg-[#f2f2f2] font-sans overflow-hidden">
+    <section className="lg:pt-20 lg:pb-0 pt-10 pb-10 px-4 bg-[#f2f2f2] font-sans overflow-hidden">
       <div className="max-w-7xl mx-auto text-center">
         {/* Heading */}
         <h2 className="text-3xl md:text-5xl font-sofia font-normal uppercase text-black mb-16 tracking-wide">
